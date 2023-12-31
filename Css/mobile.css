@@ -1,0 +1,75 @@
+/* Navigation */
+#navbar {
+
+    width: 98.65%;
+    height: 341px;
+
+}
+
+#navbar::before {
+    height: 104%;
+    width: 151%;
+
+}
+
+#navbar ul{
+    flex-direction: column;
+}
+
+
+/* Home-Section */
+#home {
+    flex-direction: column;
+    margin: 5px -108px;
+    padding: 126px;
+}
+
+.image {
+    width: 120%;
+    height: 65vh;
+    margin-top: 8%;
+}
+
+/* Food container-Section */
+.food-container {
+    grid-template-columns: 1fr;
+    margin: -5px -102px;
+}
+
+.image-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: auto;
+}
+
+#img1 {
+    height: 90vh;
+    width: auto;
+    margin-top: 228px;
+    margin-right: 57px;
+    margin-left: auto;
+}
+
+#img2 {
+    height: 90vh;
+    width: auto;
+    margin-top: 7px;
+    margin-right: 58px;
+    margin-left: auto;
+}
+
+#img3 {
+    height: 90vh;
+    width: auto;
+    margin-top: -400px;
+    margin-right: 58px;
+}
+
+.text-box {
+    height: 29vh;
+    width: auto;
+    margin-top: -14px;
+    margin-right: 58px;
+    margin-left: 83px;
+}

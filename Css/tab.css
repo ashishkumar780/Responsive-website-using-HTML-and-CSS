@@ -1,0 +1,49 @@
+/* Navigation */
+#navbar {
+    width: 100%;
+}
+
+/* Home-Section */
+#home{
+    flex-direction:column; 
+    margin: 1px -25px;
+    padding: 126px;
+}
+.image{
+    width: 111%;
+    height: 58vh;
+    margin-top: 5%;
+}
+
+
+/* Food container-Section */
+.food-container{
+    grid-template-columns:  1fr;
+}
+
+#img1 {
+    height: 90vh;
+    width: auto;
+    margin-top: 228px;
+    margin-right: 58px;
+}
+#img2 {
+    height: 90vh;
+    width: auto;
+    margin-top: 7px;
+    margin-right: 58px;
+}
+#img3 {
+    height: 90vh;
+    width: auto;
+    margin-top: -400px;
+    margin-right: 58px;
+}
+
+.text-box{
+    height: 17vh;
+    width: auto;
+    margin-top: -10px;
+    margin-right: 58px;
+    margin-left: 39px;
+}
